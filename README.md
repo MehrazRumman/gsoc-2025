@@ -43,14 +43,14 @@ You can also propose your own.
 
 **Expected size of the project**: Large (350 hours)
 
-**Difficulty rating**: Medium
+**Difficulty Level**: Medium
 
 **Description**:
 
 At the moment of writing, MetaCall has reached a stable point where showing the usage of the tooling itself is the most important. In this project we want to create a tutorial showing the full lifecycle of developing a complete application with MetaCall. The project has complete freedom for selecting language or framework for developing it, it will be interesting to use new technologies and also well known if possible. For achieving this, we will need to cover:
 
  1) Explain how to install MetaCall in Windows, Linux and MacOs.
- 2) Develop a polyglot app with MetaCall, including Frontend, Backend and some services, for example using Python for doing something related to AI or math which cannot be done with NodeJS.
+ 2) Develop a polyglot app with MetaCall, including Frontend, Backend and some services, for example using `Python` for doing something related to AI or math which cannot be done with `NodeJS`.
  3) Show how to develop the whole service locally with Deploy and FaaS tools.
  4) Deploy to both FaaS and show the final app in production.
 
@@ -75,11 +75,11 @@ All this process should be documented with markdown, also we will highly value i
 
 **Expected size of the project**: Small (90 hours)
 
-**Difficulty rating**: Medium
+**Difficulty Level**: Medium
 
 **Description**:
 
-[Rust Port](https://crates.io/crates/metacall) is the wrapper of MetaCall for using multiple languages from Rust. We support Rust already but recently we have been using it in a more advanced environment, for example in our [MetaSSR](https://github.com/metacall/metassr) project from last GSoC year. We have noticed that there is some limitations with the current port implementation that must be addressed:
+[Rust Port](https://crates.io/crates/metacall) is the wrapper of MetaCall for using multiple languages from `Rust`. We support Rust already but recently we have been using it in a more advanced environment, for example in our [MetaSSR](https://github.com/metacall/metassr) project from last GSoC year. We have noticed that there is some limitations with the current port implementation that must be addressed:
 
   1) from improvements in the usage of the API,
   2) sugar macros for easy usage (HList),
@@ -134,18 +134,18 @@ MetaCall Core has support for C by using `libffi`, `libclang` and `tcc`. This is
 
 **Expected size of the project**: Small (90 hours)
 
-**Difficulty rating**: Medium
+**Difficulty Level**: Medium
 
 **Description**:
 
-The aim of this project is to showcase the capabilities of the existing MetaCall Scala Port by comparing its usage with GraalVM for polyglot programming. The project will involve creating a small example application that demonstrates calling other languages (e.g., Python or JavaScript) from Scala using MetaCall and from Java using GraalVM. The goal is to highlight how MetaCall simplifies polyglot development compared to GraalVM in terms of setup, ease of use, and developer experience.
+The aim of this project is to showcase the capabilities of the existing MetaCall `Scala` Port by comparing its usage with GraalVM for polyglot programming. The project will involve creating a small example application that demonstrates calling other languages (e.g., `Python` or `JavaScrip`t) from `Scala` using MetaCall and from Java using GraalVM. The goal is to highlight how MetaCall simplifies polyglot development compared to GraalVM in terms of setup, ease of use, and developer experience.
 
 Key aspects to be addressed:
- - Using the Scala Port: Leverage the existing MetaCall Scala Port to execute Python or JavaScript code directly from Scala.
- - GraalVM Comparison: Build the same example using GraalVM with Java as the primary language, integrating either Python or JavaScript.
+ - Using the Scala Port: Leverage the existing MetaCall `Scala` Port to execute `Python` or `JavaScript` code directly from Scala.
+ - GraalVM Comparison: Build the same example using `GraalVM` with `Java` as the primary language, integrating either `Python` or `JavaScript`.
  - Example Application: Create a small, practical example, such as:
-   - Calling a Python function to process a dataset (e.g., summing numbers or sorting).
-   - Executing JavaScript code for simple calculations (e.g., a factorial function).
+   - Calling a `Python` function to process a dataset (e.g., summing numbers or sorting).
+   - Executing `JavaScript` code for simple calculations (e.g., a factorial function).
 
 Comparison Criteria:
  - Simplicity: Highlight the difference in setup and usage for developers.
@@ -174,11 +174,11 @@ This project will focus on demonstrating how MetaCall provides a more ergonomic 
 
 **Expected size of the project**: Medium (175 hours)
 
-**Difficulty rating**: Medium
+**Difficulty Level**: Medium
 
 **Description**:
 
-The goal of this project is to create a new Port for MetaCall in Zig, allowing Zig programs to call and integrate other languages like JavaScript, Python, Ruby, and more. This project will require designing and implementing the Zig port from scratch, leveraging Zig's unique features such as comptime to simplify and improve the API's ergonomics for end users. This project will need to implement all supported types of MetaCall, also async APIs and different loading methodologies. Key aspects to be addressed:
+The goal of this project is to create a new Port for MetaCall in Zig, allowing Zig programs to call and integrate other languages like `JavaScript`, `Python`, `Ruby`, and more. This project will require designing and implementing the Zig port from scratch, leveraging Zig's unique features such as comptime to simplify and improve the API's ergonomics for end users. This project will need to implement all supported types of MetaCall, also async APIs and different loading methodologies. Key aspects to be addressed:
 
  - Language Interoperability: Develop the necessary bindings and functionality to enable Zig to call functions from other supported MetaCall languages.
  - API Design: Use comptime to build a concise, ergonomic, and type-safe API that makes it easy for developers to integrate MetaCall into their Zig projects.
@@ -208,7 +208,7 @@ Additionally, the project should produce a basic tutorial or article showcasing 
 
 **Expected size of the project**: Medium (175 hours)
 
-**Difficulty rating**: Hard
+**Difficulty Level**: Hard
 
 **Description**:
 
@@ -231,7 +231,7 @@ Few years ago [Rust Loader was implemented](https://github.com/metacall/gsoc-202
 
 **Expected size of the project**: Medium (175 hours)
 
-**Difficulty rating**: Medium
+**Difficulty Level**: Medium
 
 **Description**:
 
@@ -239,9 +239,9 @@ As shown in [the first idea](https://github.com/metacall/gsoc-2025/tree/main?tab
 
 Key deliverables:
 
- - Frontend: Build a simple blog UI using React or Angular.
+ - Frontend: Build a simple blog UI using `React` or `Angular`.
  - Backend: Implement REST or GraphQL APIs using NodeJS for blog post management.
- - Additional Service: Use Python to generate automated blog summaries using an AI library like HuggingFace or OpenAI's API.
+ - Additional Service: Use `Python` to generate automated blog summaries using an AI library like HuggingFace or OpenAI's API.
  - Cloud Deployment: Demonstrate local development and deploy the app using MetaCall's FaaS and deployment tools.
 
 Documentation will explain how to:
@@ -269,7 +269,7 @@ Documentation will explain how to:
 
 **Expected size of the project**: Medium (175 hours)
 
-**Difficulty rating**: Medium
+**Difficulty Level**: Medium
 
 **Description**:
 
@@ -277,7 +277,7 @@ As shown in [the first idea](https://github.com/metacall/gsoc-2025/tree/main?tab
 
 Key deliverables:
 
- - Frontend: A weather dashboard UI built with VueJS or Svelte.
+ - Frontend: A weather dashboard UI built with `VueJS` or `Svelte`.
  - Backend: Use NodeJS to fetch live weather data from a public API (e.g., OpenWeatherMap).
  - Additional Service: Use Python to calculate weather statistics, such as average temperature or trend analysis over time.
  - Cloud Deployment: Deploy the weather app on MetaCall's FaaS platform and showcase it running online.
@@ -330,7 +330,7 @@ Last year we connected the [Distributables with the Core](https://github.com/met
 
 **Expected size of the project**: Medium (175 hours)
 
-**Difficulty rating**: Medium
+**Difficulty Level**: Medium
 
 **Description**:
 
